@@ -50,7 +50,7 @@ July 2019 – May 2023
 
 - As a volunteer, I participated in the development of the application for the media market. Improved software quality and stability. Identifying and resolving critical bugs before deployment. Actively participating in bug tracking, logging issues, and collaborating with the development team to troubleshoot and fix bugs in the automated reporting system.
 - Data analytics for brands Ferrero, Nestle, Heineken, Mattel
-- Enhanced accuracy of media analytics reports with reducing manual reports by automated data cleaning and error-checking mechanisms
+- Enhanced accuracy of media analytics reports with reducing manual reports by automated data cleaning and error-checking mechanisms  
 - Improved data-driven decision making providing stakeholders with real-time insights through automated reports. Creating a dynamic reporting system from scratch that pulls data from multiple sources and generates comprehensive analytics in real-time
 ---
 ### Education/Achievements
