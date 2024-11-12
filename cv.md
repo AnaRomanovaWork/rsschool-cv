@@ -6,10 +6,24 @@
 - **Phone:** 041 296 13 31
 - **LinkedIn:** [linkedin.com/in/anastasia-romanova](www.linkedin.com/in/anaromanovawork)
 - **GitHub:** [github.com/AnaRomanovaWork](https://github.com/AnaRomanovaWork)
-
 ---
 ### Summary
 Motivated and goal-oriented Junior Software engineer with a solid foundation in software development and data analysis with a passion for technology.  I’ve recently finished the 3rd semester of Master of Information Technology at RMIT University. The study provided me hands-on experience in programming languages such as Java and Python. I also have a strong background in data analytics from previous roles. Now I’m actively involved in GradGirls program to enhance my technical and communication skills. 
+
+---
+
+### Key Skills
+- **Programming Languages**: Java, Python, SQL, HTML, CSS
+- **Version Control**: Git, GitHub
+- **Tools**: VS Code, IntelliJ IDEA
+- **Databases**: MySQL, PostgreSQL, Azure SQL, MongoDB
+- **Methodologies**: Agile, Scrum
+- **Soft skills**: Teamwork, Attention to details, Problem Solving, Growth Mindset
+- **Other**: JUnit
+
+---
+
+
 
 
 
