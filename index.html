@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anastasia Romanova CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="#Contacts">Contact Information</a></li>
+                <li> <a href="#Skills">Skills</a></li>
+                <li> <a href="#Code">Code Examples</a></li>
+                <li> <a href="<a href="https://github.com/AnaRomanovaWork/BurritoKingRestaurantAnaRomanova/tree/main">Project example</a></li>
+                <li> <a href="#Experience">Work Experience</a></li>
+                <li> <a href="#Education">Education</a></li>
+                <li> <a href="#Languages">Languages</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <h1>Anastasia Romanova</h1>
+        <img src="https://img.freepik.com/free-vector/colourful-illustration-female-programmer-doing-her-job_23-2148270747.jpg?t=st=1731739262~exp=1731742862~hmac=70ffe7a51c41045a8c02cc49f48ce5a595b1503b00a0869b82f545a29a93984f&w=740" alt="Photo">
+        <div id="Summary">
+            <h2>SUMMARY</h2>
+            <p>
+            Motivated and goal-oriented Junior Software engineer with a solid foundation in software development and data analysis with a passion for technology. 
+            I’ve recently finished the 3rd semester of Master of Information Technology at RMIT University. 
+            The study provided me hands-on experience in programming languages such as Java and Python. 
+            I also have a strong background in data analytics from previous roles. 
+            Now I’m actively involved in GradGirls program to enhance my technical and communication skills.
+            </p>
+        </div>
+        <div id="Skills">
+            <h2>SKILLS</h2>
+            <ul>
+                <li>Java</li>
+                <li>Basic CSS</li>
+                <li>Git</li>
+                <li>Teamwork</li>
+                <li>Python</li>
+                <li>Software Testing</li>
+                <li>Analytical skills</li>
+                <li>Requirements
+                    Engineering</li>
+                <li>Basic HTML</li>
+                <li>SQL</li>
+                <li>Problem Solving</li>
+                <li>Attention to
+                    details</li>
+
+            </ul>
+        </div>
+
+        <div id="Experience">
+            <h2>WORK EXPERIENCE</h2>
+            <div>
+                <h3>GradGirls</h3>
+                <p>Participant</p>
+                <p>Melbourne, Australia</p>
+                <p>Mar 2024 – October 2024</p>
+
+                <ul>
+                    <li>Attended workshops and training sessions focused on leadership, communication, and technical skills development.
+                    </li>
+                    <li>Acquired insights into career pathways and opportunities through mentor interactions</li>
+                    <li>Participated in networking events, expanding professional contacts and industry visibility</li>
+                    <li>Supported initiatives aimed at increasing women's representation and participation in technology and engineering sectors
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Relocation to Australia</h3>
+                <p>Master of IT student at RMIT University</p>
+                <p>Melbourne, Australia</p>
+                <p> June 2023  – Present</p>
+
+                <ul>
+                    <li>Pursuing advanced coursework in Information Technology, focusing on software development and data analysis
+                    </li>
+                    <li>Engaged in collaborative projects with peers to develop innovative tech solutions</li>
+                    <li>Building a professional network within the Australian tech community through university and external events</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3>Dentsu Russia(part of the global Dentsu Group a leading advertising company)</h3>
+                <p>Data Analyst</p>
+                <p>Moscow, Russia</p>
+                <p> July 2019 – May 2023</p>
+
+                <ul>
+                    <li>As a volunteer, I participated in the development of the application for the media market. 
+                        Improved software quality and stability. Identifying and resolving critical bugs before deployment. 
+                        Actively participating in bug tracking, logging issues, and collaborating with the development team to troubleshoot 
+                        and fix bugs in the automated reporting system.
+                    </li>
+                    <li>Data analytics for brands Ferrero, Nestle, Heineken, Mattel</li>
+                    <li>Enhanced accuracy of media analytics reports with reducing manual reports by automated data cleaning and error-checking mechanisms</li>
+                    <li>Improved data-driven decision making providing stakeholders with real-time insights through automated reports. 
+                        Creating a dynamic reporting system from scratch that pulls data from multiple sources and generates comprehensive analytics 
+                        in real-time</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="Code">
+            <h2>CODE EXAMPLE</h2>
+            <pre>
+            
+        <code>
+                    public abstract class FoodItem {
+        
+                        private String name;
+                        private double price;
+                        private int cookingTime;
+                        
+                        //constructor for FoodItem class
+                        public FoodItem(String name, double price, int cookingTime) {
+                            this.name = name;
+                            this.price = price;
+                            this.cookingTime = cookingTime;
+                        }
+                        
+                        
+                        
+                        //getter price method
+                        public double getPrice() {
+                            return price;
+                        }
+                        
+                        // setter price method
+                        public void setPrice(double price){
+                            this.price = price;
+                        }
+                        
+                        //getter name method
+                        public String getName() {
+                            return name; 
+                        }
+                        
+                        //getter cooking time method
+                        public int getCookingTime() {
+                            return cookingTime;
+                        }
+                        
+                        //method to apply discount
+                        public void applyDiscount(double discount) {
+                            double discountedPrice = getPrice() - discount;
+                            setPrice(Math.max(discountedPrice, 0));
+                        }
+                    }
+            </code>
+                </pre>
+
+            </div>
+
+        <div id="Education">
+            <h2>EDUCATION / ACHIEVEMENTS</h2>
+            <ul>
+                <li>RMIT University - Master of Information Technology - 2023 - Present</li>
+                <li> <a href="https://pll.harvard.edu/course/cs50-introduction-computer-science">CS 50, Harvard University(2023)</a></li>
+                <li> <a href="https://software-testing.ru/edu/3/56-school-for-beginer">School for Beginner Testers</a></li>
+            </ul>
+        </div>
+
+        <div id="Languages">
+            <h2>LANGUAGES</h2>
+            <ul>
+                <li>English (Advanced)</li>
+                <li>Russian (Native speaker)</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer id="Contacts">
+        <ul>
+            <li><a href="https://github.com/AnaRomanovaWork">Github</a></li>
+            <li>November 2024</li>
+            <li><img id="logo" src="https://raw.githubusercontent.com/rolling-scopes-school/js-fe-course-en/b920cf23482de2edaa0a25b62a0fd098eb67e91f/tasks/CV(markdown)/rs-school-logo.svg" alt="RS_logo"></li>
+        </ul>
+    </footer>
+</body>
+</html>
